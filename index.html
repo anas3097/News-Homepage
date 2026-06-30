@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>news-homepage-main</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <header class="container py-3">
+
+
+  <nav class="navbar navbar-expand-md p-0">
+
+    <!-- Logo -->
+    <a class="navbar-brand p-0" href="#">
+      <img src="assets/images/logo.svg" alt="Logo" class="logo">
+    </a>
+
+    <!-- Hamburger -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#mainNav"
+      aria-controls="mainNav"
+      aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <!-- Navigation -->
+    <div
+      class="offcanvas offcanvas-md offcanvas-end"
+      tabindex="-1"
+      id="mainNav">
+
+      <div class="offcanvas-header">
+
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas">
+        </button>
+
+      </div>
+
+      <div class="offcanvas-body">
+
+        <ul class="navbar-nav ms-auto gap-md-4">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">New</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Popular</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+</header>
+
+  <main class="container main">
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <section class="hero">
+          <img class="d-md-none img-fluid" src="assets/images/image-web-3-mobile.jpg" alt="Hero Image">
+          <img class="d-none d-md-block img-fluid" src="assets/images/image-web-3-desktop.jpg" alt="Hero Image">
+
+          <div class="hero-content py-4">
+            <h1 class="display-5 fw-bold">The Bright Future of Web 3.0?</h1>
+            <p class="text-secondary mb-4">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <button class="btn btn-danger btn-lg">Read More</button>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-lg-4">
+        <section class="featured-news p-4 text-white">
+          <h2 class="text-uppercase fw-bold mb-4">New</h2>
+
+          <article class="mb-4">
+            <h3 class="h5 mb-2">Hydrogen VS Electric Cars</h3>
+            <p class="mb-0 text-secondary">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+
+          <div class="divider"></div>
+
+          <article class="mb-4">
+            <h3 class="h5 mb-2">The Downsides of AI Artistry</h3>
+            <p class="mb-0 text-secondary">What are the possible adverse effects of on-demand AI image generation?</p>
+          </article>
+
+          <div class="divider"></div>
+
+          <article>
+            <h3 class="h5 mb-2">Is VC Funding Drying Up?</h3>
+            <p class="mb-0 text-secondary">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </article>
+        </section>
+      </div>
+
+      <div class="col-12">
+        <section class="articles row row-cols-1 row-cols-md-3 g-4">
+          <article class="col d-flex gap-3 align-items-start">
+            <img src="assets/images/image-retro-pcs.jpg" alt="Retro PCs">
+            <div>
+              <h2 class="h1 text-danger mb-2">01</h2>
+              <h3 class="h6 mb-2">Reviving Retro PCs</h3>
+              <p class="text-secondary mb-0">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </article>
+
+          <article class="col d-flex gap-3 align-items-start">
+            <img src="assets/images/image-top-laptops.jpg" alt="Top Laptops">
+            <div>
+              <h2 class="h1 text-danger mb-2">02</h2>
+              <h3 class="h6 mb-2">Top 10 Laptops of 2022</h3>
+              <p class="text-secondary mb-0">Our best picks for various needs and budgets.</p>
+            </div>
+          </article>
+
+          <article class="col d-flex gap-3 align-items-start">
+            <img src="assets/images/image-gaming-growth.jpg" alt="Gaming Growth">
+            <div>
+              <h2 class="h1 text-danger mb-2">03</h2>
+              <h3 class="h6 mb-2">The Growth of Gaming</h3>
+              <p class="text-secondary mb-0">How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
